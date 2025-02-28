@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipkart_Login_Test_Suite]" verbose="0">
+  <test thread-count="5" name="Login Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.tietoEvery.selenium.testing.AddRemoveTest">
+        <methods>
+          <include name="addAndRemoveTest"/>
+        </methods>
+      </class> <!-- com.tietoEvery.selenium.testing.AddRemoveTest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [Flipkart_Login_Test_Suite] -->

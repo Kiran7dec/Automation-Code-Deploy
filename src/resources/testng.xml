@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Login_Test_Suite">
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.tietoevry.selenium.testing.LoginTest"/>
+            <class name="com.tietoevry.selenium.testing.AddRemoveTest"/>
+        </classes>
+    </test>
+</suite>
