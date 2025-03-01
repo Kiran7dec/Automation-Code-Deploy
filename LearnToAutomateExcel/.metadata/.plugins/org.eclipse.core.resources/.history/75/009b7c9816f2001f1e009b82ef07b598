@@ -1,0 +1,147 @@
+package Automate.excel;
+
+import org.apache.poi.ss.usermodel.*;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileInputStream;
+
+import java.io.FileNotFoundException;
+
+import java.io.FileOutputStream;
+
+import java.io.IOException;
+
+/**
+ * 
+ * Hello world!
+ *
+ * 
+ * 
+ */
+
+public class App {
+
+	public static void main(String[] args) throws IOException {
+
+		FileInputStream file = null;
+
+		Workbook workbook = null;
+
+		Sheet sheet = null;
+
+		// Opening File
+
+		try {
+
+			file = new FileInputStream("C:/D Drive/ReadWrite.xlsx");
+
+			workbook = new XSSFWorkbook(file);
+
+			sheet = workbook.getSheetAt(0);
+
+		} catch (Exception e) {
+
+			// TODO Auto-generated catch block
+
+			e.printStackTrace();
+
+		}
+
+		// Writing a file
+
+		Row row = sheet.getRow(0); // Access the first row
+
+		if (row == null) {
+
+			row = sheet.createRow(0); // Create the row if it doesn't exist
+
+		}
+
+		Cell cell0 = row.getCell(0); // Access the First cell
+
+		if (cell0 == null) {
+
+			cell0 = row.createCell(0); // Create the cell if it doesn't exist
+
+		}
+
+		cell0.setCellValue("Kiran"); // Set the new value
+
+		Cell cell1 = row.getCell(1); // Access the Second cell
+
+		if (cell1 == null) {
+
+			cell1 = row.createCell(1); // Create the cell if it doesn't exist
+
+		}
+
+		cell1.setCellValue("Adding data to cell 1");
+
+		for (Row rowElement : sheet) {
+
+			for (Cell cellElement : rowElement) {
+
+				System.out.print(cellElement.toString() + "\t");
+
+			}
+
+			System.out.println();
+
+		}
+
+		// delete a text in file
+
+		row.removeCell(cell1);// Removing text: "Adding data to cell 1"
+
+		// updating data at row:0 cell 0
+
+		cell0.setCellValue("Kiran Kumari");
+
+		// searching in file
+
+		String searchText = "Kiran Kumari";
+
+		boolean found = false;// Initialize search as false
+
+		for (Row rowEle : sheet) {
+
+			for (Cell cell : rowEle) {
+
+				if (cell.toString().equals(searchText)) {
+
+					found = true;
+
+					System.out.println("Found " + searchText + " at row: " + rowEle.getRowNum() + ", column: "
+
+							+ cell.getColumnIndex());
+
+				}
+
+			}
+
+		}
+
+		if (!found) {
+
+			System.out.println("Text not found");
+
+		}
+
+		// Save File
+		C:/LearningExcel
+		FileOutputStream fileOut = new FileOutputStream("C:/LearningExcel/ReadWrite.xlsx");
+
+		workbook.write(fileOut);
+
+		fileOut.close();
+
+		// Closing file
+
+		workbook.close();
+
+		file.close();
+
+	}
+
+}

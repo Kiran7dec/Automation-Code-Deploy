@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://marketplace.eclipse.org/">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace | Eclipse Foundation - Explore, share, and collaborate on Eclipse Plugins, Tools, and Extensions. Discover new and popular additions to enhance your Eclipse development experience.</title>
+    <link>https://marketplace.eclipse.org/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>Java Antidecompiler</title>
+  <link>https://marketplace.eclipse.org/content/java-antidecompiler</link>
+  <description><![CDATA[
+<span>Java Antidecompiler</span>
+
+              <p>Absolute Java code and resources protection tool at the binary level This version contains improvements to the underlying security algorithm related to the latest Java releases...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/ybendersky">Yury Bendersky</a></span>
+
+<span>Tue, 11/20/2012 - 09:09
+</span>
+]]></description>
+  <pubDate>Tue, 20 Nov 2012 14:09:33 +0000</pubDate>
+    <dc:creator>Yury Bendersky</dc:creator>
+    <guid isPermaLink="false">536829 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/java-obfuscator">java obfuscator</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/code-protection">code protection</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/resource-protection">resource protection</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/byte-code-encryption">byte-code encryption</category>
+    </item>
+<item>
+  <title>ABAP Tags</title>
+  <link>https://marketplace.eclipse.org/content/abap-tags</link>
+  <description><![CDATA[
+<span>ABAP Tags</span>
+
+              <p>ABAP Tags is an Open Source Plugin which provides tools for adding arbitrary tags to ADT objects. The main features of this plugin are: View to manage ABAP Tags Wizard to assign...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/lstockbauermuhr">Ludwig Stockba…</a></span>
+
+<span>Sun, 07/12/2020 - 10:29
+</span>
+]]></description>
+  <pubDate>Sun, 12 Jul 2020 14:29:11 +0000</pubDate>
+    <dc:creator>Ludwig Stockbauer-Muhr</dc:creator>
+    <guid isPermaLink="false">5172007 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/abap">ABAP</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/search">search</category>
+    </item>
+<item>
+  <title>ABAP Code Search</title>
+  <link>https://marketplace.eclipse.org/content/abap-code-search</link>
+  <description><![CDATA[
+<span>ABAP Code Search</span>
+
+              <p>The ABAP Code Search is a tool which offers the possibility to search in ABAP source code for a given string. The most important features provided by the ABAP Code Search are works...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/lstockbauermuhr">Ludwig Stockba…</a></span>
+
+<span>Sat, 03/05/2022 - 16:30
+</span>
+]]></description>
+  <pubDate>Sat, 05 Mar 2022 21:30:05 +0000</pubDate>
+    <dc:creator>Ludwig Stockbauer-Muhr</dc:creator>
+    <guid isPermaLink="false">5507008 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/abap">ABAP</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/search">search</category>
+    </item>
+<item>
+  <title>ABAP Search and Analysis Tools</title>
+  <link>https://marketplace.eclipse.org/content/abap-search-and-analysis-tools</link>
+  <description><![CDATA[
+<span>ABAP Search and Analysis Tools</span>
+
+              <p>ABAP Search and Analysis Tools is an Open Source plugin which provides tools for searching and analyzing ABAP objects. The main purpose of the plugin is to provide advanced search...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/lstockbauermuhr">Ludwig Stockba…</a></span>
+
+<span>Mon, 11/11/2019 - 05:04
+</span>
+]]></description>
+  <pubDate>Mon, 11 Nov 2019 10:04:51 +0000</pubDate>
+    <dc:creator>Ludwig Stockbauer-Muhr</dc:creator>
+    <guid isPermaLink="false">4876278 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/abap">ABAP</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/cds">CDS</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/search">search</category>
+    </item>
+<item>
+  <title>Terra Architect</title>
+  <link>https://marketplace.eclipse.org/content/terra-architect</link>
+  <description><![CDATA[
+<span>Terra Architect</span>
+
+              <p>Vibrant syntax highlighting, valuable hints and powerful refactoring tools will dramatically increase your Terraform productivity! We created TerraArchitect because there was very...</p>
+
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/ntippy">Nathan Tippy</a></span>
+
+<span>Mon, 08/24/2020 - 16:53
+</span>
+]]></description>
+  <pubDate>Mon, 24 Aug 2020 20:53:26 +0000</pubDate>
+    <dc:creator>Nathan Tippy</dc:creator>
+    <guid isPermaLink="false">5210570 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/terraform">terraform</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/cloud">Cloud</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/aws">aws</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/azure">Azure</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/gcp">GCP</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/k8s">K8S</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/jenkins">jenkins</category>
+    </item>
+<item>
+  <title>Groovy Development Tools</title>
+  <link>https://marketplace.eclipse.org/content/groovy-development-tools</link>
+  <description><![CDATA[
+<span>Groovy Development Tools</span>
+
+              <p>The Groovy Development Tools (GDT) provides Eclipse and Maven (m2e) support for the Apache Groovy programming language. GDT adds full-featured IDE support including editors...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/aclement">Andrew Clement</a></span>
+
+<span>Wed, 07/04/2012 - 13:05
+</span>
+]]></description>
+  <pubDate>Wed, 04 Jul 2012 17:05:41 +0000</pubDate>
+    <dc:creator>Andrew Clement</dc:creator>
+    <guid isPermaLink="false">321859 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/groovy">groovy</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/fileextension_groovy">fileExtension_groovy</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/nature_orgeclipsejdtgroovycoregroovynature">nature_org.eclipse.jdt.groovy.core.groovyNature</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/m2e">m2e</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/maven">maven</category>
+    </item>
+<item>
+  <title>Code Intelligence</title>
+  <link>https://marketplace.eclipse.org/content/code-intelligence</link>
+  <description><![CDATA[
+<span>Code Intelligence</span>
+
+              <p>A plugin that enhances the Java Development Tools (JDT) with AI assisted code completion and an AI chat window. Supports API access to OpenAI, Groq, Google Gemini, Anthropic, and...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/carstenhabicht">Carsten Habicht</a></span>
+
+<span>Sat, 02/15/2025 - 19:26
+</span>
+]]></description>
+  <pubDate>Sun, 16 Feb 2025 00:26:06 +0000</pubDate>
+    <dc:creator>Carsten Habicht</dc:creator>
+    <guid isPermaLink="false">6611299 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/artificial-intelligence">Artificial intelligence</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/chatgpt">chatgpt</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/ai-code-analysis">AI code analysis</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/ai">AI</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/gpt">GPT</category>
+    </item>
+<item>
+  <title>Jitera</title>
+  <link>https://marketplace.eclipse.org/content/jitera</link>
+  <description><![CDATA[
+<span>Jitera</span>
+
+              <p>Jitera is an AI-powered programming context system that accelerates development by understanding your codebase. It automates code generation, testing, and debugging while ensuring...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/jitera">Jitera Devops</a></span>
+
+<span>Mon, 02/10/2025 - 22:01
+</span>
+]]></description>
+  <pubDate>Tue, 11 Feb 2025 03:01:29 +0000</pubDate>
+    <dc:creator>Jitera Devops</dc:creator>
+    <guid isPermaLink="false">6597523 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/artificial-intelligence">Artificial intelligence</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/ai-assistant">AI Assistant</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/typescript">TypeScript</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/javascript">javascript</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/python">Python</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/chat">chat</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/refactor">Refactor</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/chatgpt">chatgpt</category>
+    </item>
+<item>
+  <title>GitHub Copilot</title>
+  <link>https://marketplace.eclipse.org/content/github-copilot</link>
+  <description><![CDATA[
+<span>GitHub Copilot</span>
+
+              <p>What’s GitHub Copilot GitHub Copilot is your AI-powered coding assistant, offering assistance throughout your software development journey. Leveraging large language models, it...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/gcopilot">GitHub Copilot</a></span>
+
+<span>Tue, 02/11/2025 - 20:39
+</span>
+]]></description>
+  <pubDate>Wed, 12 Feb 2025 01:39:58 +0000</pubDate>
+    <dc:creator>GitHub Copilot</dc:creator>
+    <guid isPermaLink="false">6600208 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/github">github</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/copilot">copilot</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/code-completion">code completion</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/artificial-intelligence">Artificial intelligence</category>
+    </item>
+<item>
+  <title>macOS Eclipse Launcher</title>
+  <link>https://marketplace.eclipse.org/content/macos-eclipse-launcher</link>
+  <description><![CDATA[
+<span>macOS Eclipse Launcher</span>
+
+              <p>A little utility for macOS that adds a Open Workspace menu entry which when activated opens the selected workspace in a new Eclipse instance. In addition Eclipse instance icons get...</p>
+
+
+      
+<span><a title="View user profile." href="https://marketplace.eclipse.org/user/tresheim">Torkild Resheim</a></span>
+
+<span>Mon, 08/06/2012 - 15:28
+</span>
+]]></description>
+  <pubDate>Mon, 06 Aug 2012 19:28:45 +0000</pubDate>
+    <dc:creator>Torkild Resheim</dc:creator>
+    <guid isPermaLink="false">364668 at https://marketplace.eclipse.org</guid>
+    <category domain="https://marketplace.eclipse.org/free-tagging/workspace">workspace</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/os-x">OS X</category>
+    <category domain="https://marketplace.eclipse.org/free-tagging/badge">Badge</category>
+    </item>
+
+  </channel>
+</rss>
