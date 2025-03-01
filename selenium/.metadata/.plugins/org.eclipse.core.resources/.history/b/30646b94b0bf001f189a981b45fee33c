@@ -1,0 +1,92 @@
+package com.tietoEvery.selenium.testing;
+import java.time.Duration;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import junit.framework.Assert;
+
+public class OpenChromeBrowser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 WebDriverManager.chromedriver().setup();
+
+	        // Initialize WebDriver
+	        WebDriver driver = new ChromeDriver();
+	        driver.manage().window().maximize();
+	        // Open Google
+	        driver.get("https://www.w3schools.com/");
+	        
+	        WebElement javaPageLink = driver.findElement(By.linkText("JAVA"));
+	        javaPageLink.click();
+	        
+	        WebElement javaDataTypeLink = driver.findElement(By.linkText("Java Data Types"));
+	        javaDataTypeLink.click();
+
+	        
+	        WebElement FindByIDexercise = driver.findElement(By.id("exercisecontainer"));
+
+            // Scroll to the element
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FindByIDexercise);
+
+            WebElement FindbyXpathExcerciseQuestion = driver.findElement(By.xpath("//div[@id='exercisecontainer']/p"));
+            String actualText = FindbyXpathExcerciseQuestion.getText();
+            String expectedText = "What is an int in Java?";
+           // System.out.print(actualText);
+	        if(actualText.equals(expectedText)) {
+	        	WebElement answerradioButton = driver.findElement(By.xpath("//div[@class='quizoption']//input[@id='quizoption0']"));
+	        	answerradioButton.click();
+	        	WebElement submitButton = driver.findElement(By.xpath("//button[text()='Submit Answer »']"));
+	        	System.out.print(submitButton.getText());
+	        	submitButton.click();
+	        	
+	        	
+	        	WebDriverWait wait = new WebDriverWait(driver,10);
+	            wait.until(ExpectedConditions.numberOfWindowsToBe(2));  // Wait until there are two windows
+
+	            // Get all window handles
+	            Set<String> windowHandles = driver.getWindowHandles();
+	            String currentWindowHandle = driver.getWindowHandle();  // Get the current window handle
+	            String newTabHandle = null;
+
+	            // Loop through the window handles and find the new tab's handle
+	            for (String handle : windowHandles) {
+	                if (!handle.equals(currentWindowHandle)) {
+	                    newTabHandle = handle;
+	                    break;
+	                }
+	            }
+
+	            // Switch to the new tab
+	            driver.switchTo().window(newTabHandle);
+
+	            // Perform actions on the new tab (e.g., validate content)
+	            WebElement parentDiv = driver.findElement(By.xpath("//div[@id='exercisewindow']"));
+
+	         // Check if the parent <div> contains a child <div> with a specific class or other attribute
+	         WebElement childDiv = parentDiv.findElement(By.xpath(".//div[@class='correctanswer']"));
+	         if (childDiv != null) {
+	        	 WebElement correctAnswer = childDiv.findElement(By.tagName("h2"));
+	        	 System.out.println(correctAnswer.getText());
+	        	 Assert.assertEquals("Correct Answer!", correctAnswer.getText());
+	             System.out.println("Assertion passed: Heading text matches expected.");
+
+	         } else {
+	             System.out.println("Wrong Answer");
+	         }
+	         driver.switchTo().window(currentWindowHandle); 
+	        }
+	        // Print the title of the page
+	        System.out.println("Page title is: " + driver.getTitle());
+
+	        // Close the browser
+	    //    driver.quit();
+	    }
+}

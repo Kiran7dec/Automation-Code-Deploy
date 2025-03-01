@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Flipkart_Login_Test_Suite">
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.tietoEvery.selenium.testing.LoginTest"/>
+        </classes>
+    </test>
+</suite>
